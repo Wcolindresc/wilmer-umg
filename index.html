@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carrito - Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">Mi Carrito</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="confirmacion.html">Confirmación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Introducción -->
+        <section class="intro">
+            <h1>Bienvenido a Mi Carrito</h1>
+            <p>Descubre nuestros productos y disfruta de una experiencia de compra fácil y rápida.</p>
+        </section>
+
+        <!-- Sección de Integrantes del Grupo -->
+        <section class="equipo">
+            <h2>Integrantes del Grupo</h2>
+            <ul>
+                <li>Integrante 1: Nombre Apellido</li>
+                <li>Integrante 2: Nombre Apellido</li>
+                <li>Integrante 3: Nombre Apellido</li>
+            </ul>
+        </section>
+
+        <!-- Breve Descripción del Sitio -->
+        <section class="descripcion">
+            <h2>Sobre el Sitio</h2>
+            <p>Este sitio está diseñado para ofrecer una experiencia de compra en línea sencilla y rápida. Puedes explorar una variedad de productos, agregarlos a tu carrito y finalizar tu compra con facilidad.</p>
+        </section>
+
+        <!-- Sección de Videos -->
+        <section class="videos">
+            <h2>Videos de Productos</h2>
+            <video controls>
+                <source src="videos/producto1.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+            <video controls>
+                <source src="videos/producto2.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </section>
+
+        <!-- Sección de Productos -->
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto" data-nombre="Producto 1" data-precio="19.99">
+                <img src="images/producto1.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>$19.99</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto" data-nombre="Producto 2" data-precio="29.99">
+                <img src="images/producto2.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>$29.99</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto" data-nombre="Producto 3" data-precio="39.99">
+                <img src="images/producto3.jpg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>$39.99</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Carrito. Todos los derechos reservados.</p>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>
